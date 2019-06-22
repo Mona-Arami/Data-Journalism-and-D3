@@ -1,0 +1,42 @@
+
+body{
+  font-family: 'Barlow Condensed' , sans-serif;
+  font-size: 20px;
+}
+
+.header{
+  margin-top: 0;
+  font-family: 'Barlow Condensed', sans-serif;
+  background: #4380BA;
+  color: white;
+  padding:20px;
+  padding-left: 60px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.title{
+  margin-top: 20px;
+}
+
+/* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Padding bottom by footer height */
+  padding-bottom: 80px;
+}
+
+footer.footer{
+	background-color:#e9ecef;
+	border-radius: .3rem;
+	text-align: center;
+	padding: 10px 10px;
+}
+
+.contactme , .fas.fa-at{
+	color: black;
+  	margin: 5px 2px;
+}
